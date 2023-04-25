@@ -13,5 +13,5 @@ gensim
 Pillow
 tqdm
 IPython
-mol2vec
 joblib
+mol2vec
