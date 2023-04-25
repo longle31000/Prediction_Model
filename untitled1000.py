@@ -137,7 +137,7 @@ if st.button('Result'):
 'NumAromaticRings_Excipient','NumSaturatedRings_Excipient','NumAliphaticRings_Excipient','RingCount_Excipient',
 'TPSA_Excipient','LabuteASA_Excipient','BalabanJ_Excipient','BertzCT_Excipient', 'API_CID', 'Excipient_CID' ], axis=1)), axis=1)
         import joblib
-        model = joblib.load('model100.pkl')
+        model = joblib.load('model1.pkl')
         diab_prediction = model.predict(X)
     
         if diab_prediction[0] == 1:
