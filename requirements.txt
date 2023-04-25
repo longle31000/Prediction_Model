@@ -11,7 +11,7 @@ seaborn
 rarfile
 gensim
 Pillow
-make html
+html
 tqdm
 IPython
 joblib
