@@ -9,7 +9,7 @@ pandas
 matplotlib
 seaborn
 rarfile
-gensim
+gensim==3.8.0
 Pillow
 tqdm
 IPython
