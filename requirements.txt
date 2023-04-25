@@ -15,4 +15,3 @@ tqdm
 IPython
 joblib
 git+https://github.com/samoturk/mol2vec
-git+https://github.com/RaRe-Technologies/gensim/wiki/Migrating-from-Gensim-3.x-to-4
