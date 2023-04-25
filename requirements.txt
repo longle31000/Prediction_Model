@@ -14,4 +14,3 @@ Pillow
 tqdm
 IPython
 joblib
-mol2vec.features
