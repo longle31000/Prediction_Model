@@ -35,11 +35,7 @@ with col1:
 with col2:
     Excipient_CID = st.text_input('Number of Excipient_CID')
 
-uploaded_file = st.file_uploader("Choose your file", type='csv')
-if uploaded_file is not None:
-    df1 = pd.read_csv(uploaded_file)
-else:
-    df1 = pd.read_csv("hoa2.csv")
+df1 = pd.read_csv("Data_preprocessing.csv")
     
 # code for Prediction
 Predict_Result1 = ''
