@@ -31,9 +31,9 @@ def get_cid(api):
 st.title('Drug - Excipient Interaction')
 col1, col2 = st.columns(2)
 with col1: 
-    API_CID = st.text_input('Number of API_CID')
+    API_CID = st.text_input('PubChem CID, or SMILES string of the API')
 with col2:
-    Excipient_CID = st.text_input('Number of Excipient_CID')
+    Excipient_CID = st.text_input('PubChem CID, or SMILES string of the Excipient')
 
 df1 = pd.read_csv("Data_preprocessing.csv")
     
