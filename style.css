@@ -1,11 +1,116 @@
-ul {
-    padding-left: 1.5rem;
+/* Set background color to light green */
+body {
+  background-color: #e5ffd5;
 }
 
-h1 {
-    text-align:center;
+/* Set font family and color for all text */
+body,
+input,
+select,
+textarea,
+button {
+  font-family: "Lato", sans-serif;
+  color: #333333;
 }
 
-h5 {
-    text-align:center;
+/* Set font size and line height for all text */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style the header */
+header {
+  background-color: #3baf36;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+/* Style the main section */
+main {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the button */
+button {
+  background-color: #3baf36;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Style the button on hover */
+button:hover {
+  background-color: #5bc45f;
+}
+
+/* Style the text input */
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the select dropdown */
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Style the form label */
+label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the form fieldset */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the form legend */
+legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Style the table header */
+thead {
+  background-color: #3baf36;
+  color: #ffffff;
+}
+
+/* Style the table cell */
+td,
+th {
+  padding: 0.5rem;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+/* Style the table cell on hover */
+td:hover {
+  background-color: #f2f2f2;
 }
