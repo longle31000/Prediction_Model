@@ -11,4 +11,3 @@ seaborn
 rarfile
 gensim
 Pillow
-mol2vec
