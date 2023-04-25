@@ -15,4 +15,4 @@ html
 tqdm
 IPython
 joblib
-mol2vec
+mol2vec.features
