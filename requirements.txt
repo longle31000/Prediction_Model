@@ -11,4 +11,6 @@ seaborn
 rarfile
 gensim
 Pillow
+tqdm
 mol2vec
+joblib
